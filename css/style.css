@@ -29,4 +29,9 @@ body {
   text-align: center;
   font-size: 35px;
   color: red;
+  display: none;
+}
+
+.product-cell:hover .heart {
+  display: block;
 }
