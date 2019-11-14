@@ -7,19 +7,19 @@ body {
   padding: 10px;
 }
 
-.row {
-  margin-bottom: 15px;
-}
-
 .product-list {
   width: 70%;
   margin: auto;
   text-align: center;
 }
 
+.row {
+  margin-bottom: 15px;
+}
+
 .product-cell {
-  display: inline-block;
   position: relative;
+  display: inline-block;
 }
 
 .discount {
@@ -33,15 +33,14 @@ body {
 }
 
 .heart {
+  display: none;
   position: absolute;
   bottom: 5px;
   width: 300px;
   text-align: center;
   font-size: 35px;
   color: red;
-  display: none;
 }
-
 .product-cell:hover .heart {
   display: block;
 }
