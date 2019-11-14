@@ -7,6 +7,16 @@ body {
   padding: 10px;
 }
 
+.row {
+  margin-bottom: 15px;
+}
+
+.product-list {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
 .product-cell {
   display: inline-block;
   position: relative;
