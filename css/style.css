@@ -21,3 +21,12 @@ body {
 .product-cell:nth-child(2) .discount {
   background-color: green;
 }
+
+.heart {
+  position: absolute;
+  bottom: 5px;
+  width: 300px;
+  text-align: center;
+  font-size: 35px;
+  color: red;
+}
